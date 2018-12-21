@@ -1,11 +1,9 @@
 # Free (Unrestricted) Grammar For Prime Numbers
 
-### Start - #S#
+### Start: #S#
 ### Non-terminals: S, Q, a, b, +, -, *, o, '
 ### Terminals: #, t
-
-
-### Rules
+### Rules:
 1. S -> aQ
 2. Q -> bQ
 3. Q -> b+
