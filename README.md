@@ -1,4 +1,4 @@
-# Free Grammar For Prime Numbers
+# Free (Unrestricted) Grammar For Prime Numbers
 
 ## Rules
 1. S -> aQ
