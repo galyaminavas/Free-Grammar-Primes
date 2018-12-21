@@ -1,8 +1,9 @@
 import os
 
-axiom = '#S#'
+axiom = 'A'
 
-init = {'init_1': ('S', 'aQ'),
+init = {'init_0': ('A', '#S#'),
+        'init_1': ('S', 'aQ'),
         'init_2': ('Q', 'bQ'),
         'init_3': ('Q', 'b+')}
 
@@ -29,6 +30,7 @@ def apply_rule(curr_str, curr_rule):
 
 def init_rules(n):
     start = axiom
+    start = apply_rule(start, init['init_0'])
     if n >= 2:
         start = apply_rule(start, init['init_1'])
         for i in range(1, n - 1):
