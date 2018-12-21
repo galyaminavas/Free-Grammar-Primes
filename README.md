@@ -1,4 +1,6 @@
 # Free (Unrestricted) Grammar For Prime Numbers
+## Code hint: just run 'python free_grammar.py'
+
 
 ### Start: #S#
 ### Non-terminals: S, Q, a, b, +, -, *, o, '
