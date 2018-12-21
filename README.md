@@ -1,10 +1,11 @@
 ## Free (Unrestricted) Grammar For Prime Numbers
-### Code hint: just run 'python free_grammar.py'
+Code hint: just run 'python free_grammar.py'
 
 
-#### Start: #S#
-#### Non-terminals: S, Q, a, b, +, -, *, o, '
-#### Terminals: #, t
+#### Grammar
+Start: #S#
+Non-terminals: S, Q, a, b, +, -, *, o, '
+Terminals: #, t
 #### Rules:
 1. S -> aQ
 2. Q -> bQ
