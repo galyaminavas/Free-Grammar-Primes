@@ -1,5 +1,6 @@
 # Primes-Free-Grammar
 
+---------------------------
 | Prime | Derivation length|
 ---------------------------
 | 2 | 9 |
