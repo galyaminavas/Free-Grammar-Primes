@@ -1,5 +1,29 @@
-# Primes-Free-Grammar
+# Free Grammar For Prime Numbers
 
+## Rules
+1. S -> aQ
+2. Q -> bQ
+3. Q -> b+
+4. b+# -> b*#
+5. 'bb* -> b*c
+6. ab* -> a*a-
+7. aa* -> a*a-
+8. #a* -> #a+
+9. -a -> a-
+10. -b -> b-
+11. -c -> b
+12. -# -> #
+13. +a -> a+
+14. +b -> b+
+15. +c -> bo
+16. oc -> 'c
+17. b' -> 'b
+18. a' -> a*
+19. a+# -> t#
+20. at -> tt
+
+
+---------------------------
 | Prime | Derivation length|
 | ----- | -----------------|
 | 2 | 9 |
