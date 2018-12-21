@@ -54,16 +54,6 @@ def apply_rules(curr_str):
     return buff_str
 
 
-# number_dec = 7
-#
-# init_string = init_rules(number_dec)
-#
-# applied_string = apply_rules(init_string)
-# print(applied_string)
-#
-# for j in range(1, len(derivation) + 1):
-#     print("{}.".format(j), derivation[j - 1])
-
 def print_derivation_in_file(num):
     init_string = init_rules(num)
     applied_string = apply_rules(init_string)
@@ -81,4 +71,3 @@ def print_derivation_in_file(num):
 
 number = input('Prime number: ')
 print_derivation_in_file(int(number))
-
