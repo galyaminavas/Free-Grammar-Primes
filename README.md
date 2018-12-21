@@ -1,6 +1,9 @@
 # Free (Unrestricted) Grammar For Prime Numbers
 
-## Rules
+### Start - #S#
+
+
+### Rules
 1. S -> aQ
 2. Q -> bQ
 3. Q -> b+
